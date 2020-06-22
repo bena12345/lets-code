@@ -1,0 +1,17 @@
+ASSIGNING ELEMENTS OF DIFFERENT LISTS:
+
+list1=[1,2,3,4,5]
+print("original list=",list1)
+var1,var2,var3=[list1[i] for i in (2,3,4)]
+print("list2=",var1,",",var2,",",var3)
+
+ACCESSING ELEMENTS FROM TUPLE: 
+
+tup1=[1,2,3]
+print("first index:",tup1[0])#we can access the element using tuple index
+
+DELETING DIFFERENT DICTIONARY ELEMENTS:
+dict1={1:2,3:4,5:6}
+del dict1[1]
+del dict1[3]
+print(dict1)
